@@ -1,4 +1,9 @@
 title: "envyen docs"
+baseurl: "/docs"
 remote_theme: pmarsceill/just-the-docs
 #color_scheme: "dark"
+color_scheme: nil
 search_enabled: false
+permalink: pretty
+heading_anchors: true
+
