@@ -1,6 +1,6 @@
 ---
 title: portfolio
-parent: index
+parent: docs
 has_children: true
 nav_order: 1
 ---
