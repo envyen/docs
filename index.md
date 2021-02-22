@@ -1,9 +1,9 @@
 ---
-title: envyen docs
+title: docs
 has_children: true
 nav_order: 1
 ---
 
-# Envyen docs
+# Index
 
 test page
