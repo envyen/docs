@@ -1,5 +1,6 @@
 ---
 title: laminar
+parent: projects
 has_children: false
 ---
 
