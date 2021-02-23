@@ -1,8 +1,8 @@
 ---
-title: projects
+title: project
 has_children: true
 parent: docs
-nav_order: 1
+nav_order: 2
 ---
 
 # projects
