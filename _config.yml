@@ -4,5 +4,4 @@ remote_theme: pmarsceill/just-the-docs
 #color_scheme: "dark"
 search_enabled: true
 permalink: pretty
-heading_anchors: true
-
+heading_anchors: false
