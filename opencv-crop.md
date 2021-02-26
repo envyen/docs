@@ -3,7 +3,7 @@ title: opencv
 parent: notes
 has_children: false
 grand_parent: docs
-
+date: '2021-02-26 22:02:30'
 ---
 
 ##### crop image
