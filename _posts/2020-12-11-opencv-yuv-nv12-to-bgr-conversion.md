@@ -1,5 +1,6 @@
 ---
 title: OpenCV - YUV NV12 to BGR conversion
+layout: post
 ---
 
 ```cpp

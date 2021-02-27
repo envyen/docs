@@ -1,5 +1,6 @@
 ---
 title: grep in pdf
+layout: post
 tags:
 - utils
 ---
