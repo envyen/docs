@@ -1,9 +1,8 @@
 ---
 title: about
 parent: docs
-has_children: true
-nav_order: 1
+has_children: false
+nav_order: 3
+has_toc: false
 ---
-
-# about
 

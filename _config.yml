@@ -5,3 +5,6 @@ remote_theme: pmarsceill/just-the-docs
 search_enabled: true
 permalink: pretty
 heading_anchors: false
+
+plugins:
+  - jekyll-gist
