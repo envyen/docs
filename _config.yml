@@ -1,10 +1,40 @@
 title: "envyen/docs"
 baseurl: "/docs"
 remote_theme: pmarsceill/just-the-docs
-#color_scheme: "dark"
-search_enabled: true
 permalink: pretty
-heading_anchors: false
+
+heading_anchors: true
+
+# Enable or disable the site search
+search_enabled: true
+
+# Set the search token separator for hyphenated-word search:
+search_tokenizer_separator: /[\s/]+/
+
 
 plugins:
   - jekyll-gist
+  - jekyll-seo-tag
+
+collections:
+  posts:
+    permalink: "/:collection/:path/"
+    output: true
+  oss:
+    permalink: "/:collection/:path/"
+    output: true
+  tutorials:
+    permalink: "/:collection/:path/"
+    output: true
+  tags:
+    output: true
+    permalink: "tags/:path/"
+
+#just_the_docs:
+#  collections:
+#    posts:
+#      name: posts
+#    oss:
+#      name: open-source
+#    tutorials:
+#      name: tutorials

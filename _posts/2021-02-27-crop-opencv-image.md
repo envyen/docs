@@ -1,5 +1,5 @@
 ---
-title: Crop OpenCV Image
+title: OpenCV - Crop Image
 tags:
 - opencv
 ---

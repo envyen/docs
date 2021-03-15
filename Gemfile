@@ -19,6 +19,7 @@ gem "just-the-docs", "~> 0.3.3"
 gem "github-pages", group: :jekyll_plugins
 gem 'jekyll-admin', group: :jekyll_plugins
 gem 'jekyll-gist'
+gem 'jekyll-tagging'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

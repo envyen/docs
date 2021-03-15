@@ -1,5 +1,5 @@
 ---
-title: grep in pdf
+title: A grep for pdf
 layout: post
 tags:
 - utils
