@@ -6,7 +6,7 @@ permalink: pretty
 heading_anchors: true
 
 # Enable or disable the site search
-search_enabled: true
+search_enabled: false
 
 # Set the search token separator for hyphenated-word search:
 search_tokenizer_separator: /[\s/]+/
