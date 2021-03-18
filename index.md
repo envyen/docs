@@ -4,7 +4,7 @@ nav_order: 1
 has_toc: false
 ---
 
-# Index
+# blog
 
 {% for post in site.posts %}
 <div>
