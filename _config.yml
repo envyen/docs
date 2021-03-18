@@ -1,5 +1,5 @@
-title: "envyen/docs"
-baseurl: "/docs"
+title: "envyen"
+baseurl: "/"
 remote_theme: pmarsceill/just-the-docs
 permalink: pretty
 
