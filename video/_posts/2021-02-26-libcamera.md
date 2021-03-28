@@ -9,3 +9,10 @@ tags:
 An open source camera stack and framework for Linux, Android, and ChromeOS
 
 https://www.libcamera.org/
+
+```
+git clone git://linuxtv.org/libcamera.git
+cd libcamera
+meson build
+ninja -C build install
+```
