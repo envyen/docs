@@ -14,7 +14,7 @@ has_toc: false
 
 
 | :------- | :------------------------------------- | -----------: |
-{% for post in site.posts %}|{{ post.date | date_to_string }} | <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> | {% for tags in post.tags %} <small class="fs-1 d-inline btn">{{tags}}</small> {% endfor %} |
+{% for post in site.posts %}|{{ post.date | date_to_string }} | <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> | {% for tags in post.tags %} <small class="fs-1 d-inline btn"><a href="{{ site.baseurl }}/tags/#{{ tags | slugify }}">{{ tags }}</a></small> {% endfor %} |
 {% endfor %}
 
 <div class="datatable-end"></div>
