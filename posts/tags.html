@@ -21,7 +21,7 @@ The following part extracts all the tags from your posts and sort tags, so that 
 	{% endfor %}
 {% endfor %}
 
-{% assign tags = tags | split:'|' %}
+{% assign tags = tags | split:'|' | sort %}
 
 {% for tag in tags %}
 <small class="fs-1 d-inline btn">
