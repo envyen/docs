@@ -24,7 +24,7 @@ The following part extracts all the tags from your posts and sort tags, so that 
 {% assign tags = tags | split:'|' | sort %}
 
 {% for tag in tags %}
-<small class="fs-1 d-inline btn btn-blue">
+<small class="fs-1 d-inline btn">
 <a href="#{{ tag | slugify }}"> {{ tag }} </a>&nbsp</small>
 
 {% endfor %}
