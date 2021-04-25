@@ -32,7 +32,7 @@ The following part extracts all the tags from your posts and sort tags, so that 
 <hr>
 
 {% for tag in tags %}
-<small class="fs-1 d-inline btn">  <span id="{{ tag | slugify }}">{{ tag }}</span> </small>
+<small class="fs-1 d-inline label label-green">  <span id="{{ tag | slugify }}">{{ tag }}</span> </small>
 	<ul>
 	 {% for post in site.posts %}
 		 {% if post.tags contains tag %}
