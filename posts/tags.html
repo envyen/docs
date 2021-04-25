@@ -42,7 +42,7 @@ The following part extracts all the tags from your posts and sort tags, so that 
 		 <small>{{ post.date | date_to_string }}</small>
 		 </a>
 		 {% for tag in post.tags %}
-			 <small class="fs-1 d-inline btn"><a href="#{{ tag | slugify }}"> {{ tag }} </a>&nbsp</small>
+			 <!--<small class="fs-1 d-inline btn"><a href="#{{ tag | slugify }}"> {{ tag }} </a>&nbsp</small>-->
 		 {% endfor %}
 		 </h4>
 		 </li>
