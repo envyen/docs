@@ -9,7 +9,7 @@ tags:
 A trick to animate the perspective transformation between two planes.
 The homography matrix is a 3x3 matrix computed from point correspondence. 
 
-This is explained in the previous post [ ]
+This is explained in the previous post on [homography](http://envyen.com/posts/2021-04-08-homography/)
 
 Here the homoraphy matrix is smoothly interpolated between the source image plane homography itself and the requited destination image plane. Used the `addWeighted()` function for this.
 
