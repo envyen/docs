@@ -29,7 +29,7 @@ Chroma subsampling is the technique of encoding images using less resolution for
 
 Common schemes used in modern codecs are: `4:4:4` (no subsampling), `4:2:2`, `4:1:1`, `4:2:0`, `4:1:0`.
 
-![](../../upload/yuv420.png) 
+![](../../upload/yuv420.png "YUV420") 
 
 * the `4` in `4:2:0` is the width of the grid taken as a reference
 * the `2` in `4:2:0` is the number of chrominance values for the first row
@@ -37,8 +37,8 @@ Common schemes used in modern codecs are: `4:4:4` (no subsampling), `4:2:2`, `4:
 
 Similarly,
 
-![](../../upload/yuv444.png) 
+![](../../upload/yuv444.png "YUV444") 
 
-![](../../upload/yuv422.png)
+![](../../upload/yuv422.png "YUV422")
 
-![](../../upload/yuv411.png)
+![](../../upload/yuv411.png "YUV411")
