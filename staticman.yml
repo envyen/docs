@@ -45,23 +45,6 @@ comments:
   # Name of the site. Used in notification emails.
   name: "envyen.com"
 
-  # Notification settings. When enabled, users can choose to receive notifications
-  # via email when someone adds a reply or a new comment. This requires an account
-  # with Mailgun, which you can get for free at http://mailgun.com.
-  #notifications:
-    # Enable notifications
-    #enabled: true
-
-    # (!) ENCRYPTED
-    #
-    # Mailgun API key
-    #apiKey: "1q2w3e4r"
-
-    # (!) ENCRYPTED
-    #
-    # Mailgun domain (encrypted)
-    #domain: "4r3e2w1q"
-
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.
@@ -75,3 +58,8 @@ comments:
   # the name of the field and values are possible transformation types.
   transforms:
     email: md5
+
+  reCaptcha:
+    enabled: true
+    siteKey: 6LeyhdEaAAAAAMAn_noABL-5OCZrQNejdHtjK9Pq
+    secret:  "kY0FQlCNnF8R++4g4ZiJyHSI7gWjnxX6lolVehD8ImYlGEvNXWqH4euAhLMbtJIB2d68CwtZMWq3tiQpW3m6b6FY6rdgFgpUiiTgsV0cr87I8vSDB/9rHrkgFqKzxClDhXy5Ck8XAxOD1ZF59vPihjv/pMecV+a6uf89P73vnz0D8PBuID+oPXVxkOBdqiT9xZHJXgbezOECevEs0YwZqEP5mbz0wXEZlbGqPUmAml/CZD9ffz3pWYipZE7IpNDJsYa+2Both4OOJvzx56Jgte7Gqy6TvqTXn9LdanromruEqJ5luDLuN+UOXn92B4hw+cXh4Qr/Y4N8qRc7CF1CigmKhE15c+jqKsnaTnT2hYNZAR3oEowlmOGr/6OCjtVwvpbCLSaR/EXHipJdHV/AvB9P7uAFiBiUZ6CYibQ3bIEwBGsnJhFxeu0jv9ODVgXn+avPXOArZD+yHlIFiRf2IC6YfZV1QGgZpi7lMi48jIbdWi5WFSjjNkTnwKDKwMu8Qx22Dh4JFXJxEhRoBNqylZ8QtQ/AEXpgWHTfMX1qUHMPm4o/IjD8EoesDCMH67b2VsvItQVJTDbsiJK2rweJ72GtHAiyfZ1LO5KVNOCOcHUdtrP6Mt/6zHY5WJVIYYBgHKh8nZ00OISoBFpC7+UYdOawo/C3khkU/O0Dx25b08c="
