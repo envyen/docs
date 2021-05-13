@@ -1,6 +1,7 @@
 ---
 title: Homography
 layout: post
+comments: true
 tags:
 - opencv
 - camera
