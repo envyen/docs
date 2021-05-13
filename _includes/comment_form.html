@@ -6,33 +6,31 @@
   <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
   <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
 
-  <div class="textfield">
+  <div style="display: inline-block;">
     <label for="comment-form-message">
-	<h3>Add Comment<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">(cancel reply)</a></small></h3>
+	<h4>Add Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">(cancel reply)</a></small></h4>
 
-      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment (markdown accepted)" required rows="6"></textarea>
-
-    </label>
-  </div>
-
-    <div class="textfield narrowfield">
-      <label for="comment-form-name">Name
-        <input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Your name" required/>
-      </label>
-    </div>
-
-    <div class="textfield narrowfield">
-      <label for="comment-form-email">E-mail
-        <input class="textfield__input" name="fields[email]" type="email" id="comment-form-email" placeholder="Your email (Not published)" required/>
-      </label>
-    </div>
+      <textarea style="width: 100%; resize: vertical; min-height: 100px; padding: 10px; border: 1px solid #aaa; border-bottom: 1px dashed #ccc; border-radius: 5px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;" class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment (markdown accepted)" required rows="6"></textarea></label><input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Name" required style="width: 50%;
+	box-sizing: border-box;
+	margin: 0px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-top: 1px dashed #ccc;
+    border-right: 1px dashed #ccc;
+    border-bottom-left-radius: 5px;" /><input class="textfield__input" name="fields[email]" type="email" id="comment-form-email" placeholder="e-mail (Not published)" required style="width: 50%;
+	margin: 0px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-top: 1px dashed #ccc;
+    border-left: 1px dashed #ccc;
+    border-bottom-right-radius: 5px;"/>
 
     <div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
-<div>
-    <button class="btn btn-blue" id="comment-form-submit">
-      Submit
-    </button>
+	<div>
+		<button class="btn btn-blue" id="comment-form-submit">Submit</button>
+	</div>
 </div>
+
 </form>
 
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none" >
