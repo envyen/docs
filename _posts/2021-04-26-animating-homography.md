@@ -1,5 +1,6 @@
 ---
 title: Animating homography
+comments: true
 tags:
 - opencv
 - homography
