@@ -10,10 +10,10 @@
   // nfc-top-left
   // nfc-bottom-right
   // nfc-bottom-left
-  positionClass: 'nfc-bottom-right',
-  showDuration: 3500,
+  // positionClass: 'nfc-top-right',
+  showDuration: 4500,
   // success, info, warning, error, and none
-  theme: 'info'
+  theme: 'success'
   });
 
   $('.js-form').submit(function () {
