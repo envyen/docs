@@ -1,3 +1,7 @@
+<link rel="stylesheet" href="{{ '/assets/css/notifications.css' | relative_url }}">
+<script src="{{ '/assets/js/notifications.js' | relative_url }}"></script>
+
+
 {% for javascript in page.custom-js-list %}
     <script src="{{ javascript }}"></script>
 {% endfor %}
@@ -5,3 +9,6 @@
 {% for css in page.custom-css-list %}
     <link href="{{ css }}" rel="stylesheet">
 {% endfor %}
+
+
+

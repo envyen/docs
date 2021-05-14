@@ -3,6 +3,19 @@
 (function ($) {
   var $comments = $('.js-comments');
 
+  const notification = window.createNotification({
+  // options here
+  closeOnClick: true,
+  displayCloseButton: false,
+  // nfc-top-left
+  // nfc-bottom-right
+  // nfc-bottom-left
+  positionClass: 'nfc-bottom-right',
+  showDuration: 3500,
+  // success, info, warning, error, and none
+  theme: 'info'
+  });
+
   $('.js-form').submit(function () {
     var form = this;
 
@@ -18,9 +31,13 @@
       data: $(this).serialize(),
       contentType: 'application/x-www-form-urlencoded',
       success: function (data) {
-        showModal('Comment submitted', 'Thanks! Your comment is pending moderation. It will appear when approved.');
+        //showModal('Comment submitted', 'Thanks! Your comment is pending moderation. It will appear when approved.');
+      notification({
+		title: 'Thanks for your comment!',
+		message: 'Your comment is pending moderation. It will appear when approved.'
+	});
 
-        $("#comment-form-submit")
+      $("#comment-form-submit")
           .html("Submit");
 
         $(form)[0].reset();
