@@ -3,6 +3,7 @@ title: A grep for pdf
 layout: post
 tags:
 - utils
+- pdf
 ---
 
 Grep in pdf text 
