@@ -15,3 +15,4 @@ has_toc: false
 
 ### image
 * [compress](/tools/image/compress-image/) - Compress an image limited to a filesize or length
+* [qr-code](/tools/image/qr-code-generator/) - Generate QR Code from text
