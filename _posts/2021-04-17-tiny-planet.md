@@ -1,5 +1,5 @@
 ---
-title: tiny planet using ffmpeg
+title: Equirectangular to Tiny-planet
 comments: true
 tags:
 - ffmpeg
