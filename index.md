@@ -10,19 +10,7 @@ has_toc: false
 <span>{{ post.date | date_to_string }}</span><br/>
 <p>{{ post.excerpt }}</p>
 <hr/>
-{% assign rawtags = "" %}
-{% assign tags = "" %}
-{% for tag in post.tags %}
-	{% if tag != "" %}
-		{% unless tags contains tag %}
-			{% assign tags = tags | append:tag | append:'|'  %}
-		{% endunless %}
-	{% endif %}
-{% endfor %}
-{% assign tags = tags | split:'|' | sort %}
-{% for tag in tags %}
-<small class="fs-1 d-inline btn">{{ tag }}</small>
-{% endfor %}
+{% for tags in page.tags %}<small class="fs-1 d-inline btn btn-green">{{tags}}</small>{% endfor %}
 <hr/>
 <br/>
 {% endfor %}
