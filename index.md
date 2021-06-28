@@ -6,7 +6,7 @@ has_toc: false
 ---
 
 {% for post in site.posts %}
-<h2> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h2>
+<h3> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h3>
     <div>
     <small class="fs-1 d-inline btn btn-blue">{{ post.date | date: "%b %-d, %Y" }}</small>
     {% for tags in post.tags %} 
