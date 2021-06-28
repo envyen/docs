@@ -1,5 +1,5 @@
 ---
-title: Jupyter Notebook for CPP in Windows
+title: C/C++ Jupyter Notebook using xeus-cling - Windows WSL Setup
 layout: post
 tags:
 - jupyter-notebook
