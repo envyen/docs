@@ -5,6 +5,8 @@ nav_order: 1
 has_toc: false
 ---
 
+# Posts
+
 {% for post in site.posts %}
 <h3> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h3>
 
