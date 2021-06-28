@@ -5,6 +5,8 @@ tags:
 - opencv
 ---
 
+How to convert an nv12 buffer to BGR in OpenCV, C++
+
 ```cpp
 cv::Mat BGR;
 cv::Mat NV12 = cv::Mat(height * 3/2, Width, CV_8UC1, nv12Buffer);
