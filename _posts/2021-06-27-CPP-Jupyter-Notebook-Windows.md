@@ -6,17 +6,13 @@ tags:
 - cpp
 ---
 
-### Setup Jupyter Notebook for C++ on Windows
+Setup Jupyter Notebook for C++ on Windows
 
-Jupyter notebook supports C/C++ using the [](xeus-cling) project.
-
-`xeus-cling` is a Jupyter kernel for C++ based on the C++ interpreter cling and the native implementation of the Jupyter protocol xeus.
-
-This has been built mainly for Linux and OS X platforms and doesnt support Windows Jupyter notebook.
+Jupyter notebook supports C/C++ using the [](xeus-cling) project. `xeus-cling` is a Jupyter kernel for C++ based on the C++ interpreter cling and the native implementation of the Jupyter protocol xeus. This has been built mainly for Linux and OS X platforms and doesnt support Windows Jupyter notebook.
 
 The below steps helps to setup the environment on Windows using WSL
 
-#### 1. Enable Ubuntu on WSL
+## 1. Enable Ubuntu on WSL
 
 If you have not used WSL before on windows, please follow the steps from Microsoft [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 
 
@@ -24,7 +20,7 @@ Install Ubuntu for Windows from Windows Store. I'm using Ubuntu 18.04.
 
 Other supported Linux flavours can be used. I have not yet tried though.
 
-#### 2. Install Miniconda
+## 2. Install Miniconda
 
 Install miniconda from https://conda.io/miniconda.html
 
@@ -38,7 +34,7 @@ Install miniconda
 $ ./Miniconda3-latest-Linux-x86_64.sh
 ```
 
-#### 3. Conda, Jupyter Notebook, Xeus-Cling setups
+## 3. Conda, Jupyter Notebook, Xeus-Cling setups
 
 Init and update conda. Init will add the required bootstrapping in your bashrc
 
@@ -70,7 +66,7 @@ jupyter nbextensions_configurator enable --user
 
 ```
 
-#### 4. Write Notebooks
+## 4. Write Notebooks
 
 Now that everything is setup, choose a directory for your notebooks
 
@@ -87,7 +83,7 @@ Run Jupyter notebook with `--no-browser` option as we are in WSL and paths are n
 jupyter notebook --no-browser
 ```
 
-#### 5. Open Windows Browser fix 
+## 5. Open Windows Browser fix 
 
 Generate a editable default config for Jupyter 
 ```sh
@@ -112,22 +108,21 @@ Just run
 jupyter notebook
 ```
 
-#### 6. Create a Windows Desktop Shortcut
+## 6. Create a Windows Desktop Shortcut
 
 Inside WSL create a script file to set the environment and run Notebook
 
 `$ cat ~/note`
 
 ```sh
-#!/bin/bash                                                                                                             source /home/<user>/miniconda3/etc/profile.d/conda.sh
+#!/bin/bash                                                                                                             
 cd ~/cpp-books
-source /home/<user>/miniconda3/etc/profile.d/conda.sh 
+source ~/miniconda3/etc/profile.d/conda.sh 
 conda activate cpp
 export BROWSER="/mnt/c/Program Files/Mozilla Firefox/firefox.exe"                                                       
 jupyter notebook
 ```
-
-Change `<user>`/path accordingly
+Change paths accordingly
 
 Now from Windows Desktop
 Create a new Shortcut:
