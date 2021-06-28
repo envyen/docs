@@ -8,8 +8,7 @@ has_toc: false
 # Posts
 
 {% for post in site.posts %}
-{% assign num =  forloop.length-forloop.index0 %}
-<h3> <a href="{{ site.baseurl }}{{ post.url }}">#{{num}} {{ post.title }}</a> </h3>
+<h3> <a href="{{ site.baseurl }}{{ post.url }}">#{{ forloop.length | minus: forloop.index0 }} {{ post.title }}</a> </h3>
 
 <div>
 
