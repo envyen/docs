@@ -6,9 +6,9 @@ tags:
 - cpp
 ---
 
-Setup Jupyter Notebook for C++ on Windows
+Jupyter notebook supports C/C++ using the [](xeus-cling) project. `xeus-cling` is a Jupyter kernel for C++ based on the C++ interpreter cling and the native implementation of the Jupyter protocol xeus. 
 
-Jupyter notebook supports C/C++ using the [](xeus-cling) project. `xeus-cling` is a Jupyter kernel for C++ based on the C++ interpreter cling and the native implementation of the Jupyter protocol xeus. This has been built mainly for Linux and OS X platforms and doesnt support Windows Jupyter notebook.
+But this has been built mainly for Linux and OS X platforms and doesnt support Windows Jupyter notebook.
 
 The below steps helps to setup the environment on Windows using WSL
 
@@ -124,10 +124,7 @@ jupyter notebook
 ```
 Change paths accordingly
 
-Now from Windows Desktop
-Create a new Shortcut:
-
-![](../../upload/cpp-jupyter/image-1.png "Create new shortcut") 
+Now from Windows Desktop, Right click and Create a new Shortcut.
 
 Set the location to 
 ```
