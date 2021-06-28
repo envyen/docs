@@ -142,4 +142,4 @@ Now you can open the shortcut to view your notebooks on Windows browser
 
 Additionally, in the shortcut properties change to start minimised.
 
-![](../../upload/cpp-jupyter/image-4.png "Shortcut make Start Minimized") 
+![](../../upload/cpp-jupyter/image-5.png "Shortcut make Start Minimized") 
