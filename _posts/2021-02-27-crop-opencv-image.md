@@ -4,6 +4,8 @@ tags:
 - opencv
 ---
 
+How to Crop an OpenCV Mat on specific co-ordinates
+
 ```cpp
 cv::Mat image = imread(...);
 
