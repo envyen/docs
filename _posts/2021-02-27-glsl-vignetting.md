@@ -6,6 +6,8 @@ tags:
 - glsl
 ---
 
+A simple example of vignetting in GLSL
+
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/lsVyzy?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
 ```glsl
