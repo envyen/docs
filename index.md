@@ -10,8 +10,18 @@ has_toc: false
 <span>{{ post.date | date_to_string }}</span><br/>
 <p>{{ post.excerpt }}</p>
 <hr/>
-{% for tags in post.tags %} 
-<small class="fs-1 d-inline btn"><a href="{{ site.baseurl }}/posts/tags/#{{ tags | slugify }}">{{ tags }}</a></small> 
+{% assign rawtags = "" %}
+{% assign tags = "" %}
+{% for tag in post.tags %}
+   {% if tag != "" %}
+	    {% unless tags contains tag %}
+         {% assign tags = tags | append:tag | append:'|'  %}
+	    {% endunless %}
+	 {% endif %}
+{% endfor %}
+{% assign tags = tags | split:'|' | sort %}
+{% for tag in tags %}
+<small class="fs-1 d-inline btn"><a href="#{{ tag | slugify }}"> {{ tag }} </a>&nbsp</small>
 {% endfor %}
 <hr/>
 <br/>
