@@ -1,6 +1,7 @@
 ---
 title: C/C++ Jupyter Notebook using xeus-cling - Windows WSL Setup
 layout: post
+comments: true
 tags:
 - jupyter-notebook
 - cpp
