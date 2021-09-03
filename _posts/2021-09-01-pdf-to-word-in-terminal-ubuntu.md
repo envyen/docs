@@ -23,7 +23,7 @@ libreoffice --infilter="writer_pdf_import" --convert-to doc input.pdf
 ```
 
 ```
->      convert input.pdf -> input.docx using filter : MS Word 97
+>      convert input.pdf -> input.doc using filter : MS Word 97
 ```
 
 
