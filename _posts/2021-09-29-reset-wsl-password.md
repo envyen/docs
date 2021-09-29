@@ -25,14 +25,19 @@ ubuntu.exe config --default-user root
 Hint: Press a tab after typing ubuntu, in case your `ubuntu.exe` name is `ubuntu1804.exe` it will show that. Use this for all the steps instead of `ubuntu.exe`
 
 Now Run ubuntu with user as root, the command prompt will start with `root@` 
-```ubuntu.exe```
+
+```
+ubuntu.exe
+```
 
 ### Step 2: Change User password
 
 See the list of users last added in Ubuntu:
+
 ```
 tail /etc/passwd 
 ```
+
 Change the required user password. Example if user is `myusername`
 
 ```
