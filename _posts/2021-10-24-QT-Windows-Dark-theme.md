@@ -21,5 +21,5 @@ Not tested on every Windows 10 verisons, use at caution..
 [https://forum.qt.io/post/523388](https://forum.qt.io/post/523388)
 
 
-<div class="label label-blue"> Source Code: <a href="https://github.com/envyen/qt-winDark">qt-winDark</a> </div>
+<div class="label label-blue"> Source Code: </div> <a href="https://github.com/envyen/qt-winDark">https://github.com/envyen/qt-winDark</a> 
 
