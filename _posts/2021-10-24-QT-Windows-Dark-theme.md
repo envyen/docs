@@ -8,13 +8,9 @@ tags:
 - windows-10
 ---
 
-**qt-winDark** 
-
-Qt directly doesnt support Dark/Light theme from Windows 10. This is an workaround only.
-
-**Warning:** this is not considered a proper solution, and Windows 10 api can change !! 
-Not tested on every Windows 10 verisons, use at caution.
-
+Qt directly doesnt support Dark/Light theme from Windows 10. This is an workaround.
+Please note, this is not considered a proper solution, and Windows 10 api can change !! 
+Not tested on every Windows 10 verisons, use at caution..
 
 * Title bar - Based on https://github.com/statiolake/neovim-qt/commit/da8eaba7f0e38b6b51f3bacd02a8cc2d1f7a34d8
 * Stylesheet - based on https://forum.qt.io/post/523388
@@ -22,5 +18,5 @@ Not tested on every Windows 10 verisons, use at caution.
 ![Dark theme](https://raw.githubusercontent.com/envyen/qt-winDark/main/img/dark.png "Dark theme in Windows") ![Light theme](https://raw.githubusercontent.com/envyen/qt-winDark/main/img/light.png "Light theme in Windows").
 
 
-Code:
-https://github.com/envyen/qt-winDark
+<div class="label label-yellow"> Code: <a href="https://github.com/envyen/qt-winDark">qt-winDark</a> </div>
+
