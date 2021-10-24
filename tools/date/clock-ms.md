@@ -16,9 +16,7 @@ custom-js-list:
 }
 #clock {
   color: #ddd;
-  font: small-caps lighter 60px/150% "Segoe UI",
-	Frutiger, "Frutiger Linotype", "Dejavu Sans",
-	"Helvetica Neue", Arial, sans-serif;
+  font: small-caps lighter 60px/150%  'Courier New', monospace;
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
