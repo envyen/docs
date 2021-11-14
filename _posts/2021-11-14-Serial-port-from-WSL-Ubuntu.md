@@ -9,7 +9,8 @@ tags:
 ---
 
 The COM port number enumerated from Windows is needed in WSL
-### From Windows Device Manager
+
+## From Windows Device Manager
 
 Check for **"USB Serial Port"** under **Ports (COM & LTP)**
 
@@ -18,7 +19,8 @@ Check for **"USB Serial Port"** under **Ports (COM & LTP)**
   - USB Serial Port (COM9)
 ```
 
-### From Windows Powershell
+## From Windows Powershell
+
 Open Windows Powershell and find the connected Serial port COM number. 
 
 This is using the windows hardware class guid: `{4d36e978-e325-11ce-bfc1-08002be10318}`. 
@@ -65,11 +67,3 @@ The default port and port settings can be changed in minicom using `minicom -s`
 
 Please note the port number always changes in Windows when reconnected or connected together with other devices/usb ports. 
 Check this on reconnection.
-
-References:
-
-[1] [USB to serial adapters on WSL](https://www.scivision.dev/usb-tty-windows-subsystem-for-linux/)
-
-[2] [SO Answer by Peter Wishart](https://stackoverflow.com/a/54420942/2404056)
-
-[3] [System-Defined Device Setup Classes Available to Vendors](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors)
