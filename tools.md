@@ -1,9 +1,9 @@
 ---
-layout: default
 title: tools
-has_children: false
+layout: default
+has_children: true
 has_toc: false
-
+nav_order: 2
 ---
 
 # Tools
