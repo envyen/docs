@@ -15,7 +15,7 @@ tags:
 <p style='text-align: justify;'>
 The color theory defines two common color models: Additive and Subtractive.  
 <br/>
-The interactive visualisation below shows the mixing of each primary components in the additive and subratctive color models. Drag to rotate, scroll to zoom the layers.
+The interactive visualisation below shows the mixing of each primary component in the additive and subratctive color models. Drag to rotate, scroll to zoom the layers.
 </p>
 
 <h4> Additive </h4>
