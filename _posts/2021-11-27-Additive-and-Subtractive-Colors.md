@@ -4,8 +4,8 @@ custom-js-list:
 - https://cdn.jsdelivr.net/npm/three@0.122.0/build/three.min.js
 - https://cdn.jsdelivr.net/npm/three@0.122.0/examples/js/controls/OrbitControls.min.js
 - https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js
-- http://localhost:4000/upload/3d/additive-colors.js
-- http://localhost:4000/upload/3d/subtractive-colors.js
+- https://envyen.com/upload/3d/additive-colors.js
+- https://envyen.com/upload/3d/subtractive-colors.js
 layout: post
 tags:
 - color
