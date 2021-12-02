@@ -1,5 +1,6 @@
 ---
 title: Additive and Subtractive Color model
+comments: true
 custom-js-list:
 - https://cdn.jsdelivr.net/npm/three@0.122.0/build/three.min.js
 - https://cdn.jsdelivr.net/npm/three@0.122.0/examples/js/controls/OrbitControls.min.js
