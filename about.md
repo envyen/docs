@@ -9,13 +9,6 @@ tags:
 nav_order: 3
 ---
 
-# About envyen
-
-<p style='text-align: justify;'>
-A notebook for the things and technologies I found interesting. I try to document most of the solutions I found out for my daily problems. Published in hope that any of these might help someone sometime. 
-
-</p>
-
 <H2>I'm Naveen </H2>
 
 An Embedded Software Engineer by profession, focussed on Camera Developments & Computer Vision
