@@ -41,10 +41,9 @@ has_toc: false
 
 </style>
 
-
 {% for post in site.posts %}
-<div class="card card-3" style="background-image: url('');">
-<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h3>
+<div class="card card-3" style="background-image: url('{{- post.thumbnail | relative_url -}}');">
+<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a> </h3>
 <small class="fs-1 d-inline btn btn-blue">{{ post.date | date: "%b %-d, %Y" }}</small>
 {% for tags in post.tags %} 
 <small class="fs-1 d-inline btn">{{tags}}</small> 
