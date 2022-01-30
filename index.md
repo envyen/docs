@@ -11,7 +11,7 @@ has_toc: false
 
 .card{
     border-radius: 4px;
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    box-shadow: 0 6px 10px rgba(0,0,0,.04), 0 0 6px rgba(0,0,0,.02);
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
     padding: 14px 80px 18px 36px;
     margin-bottom: 10px;
@@ -19,7 +19,7 @@ has_toc: false
 
 .card:hover{
     transform: scale(1.01);
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    box-shadow: 0 10px 20px rgba(0,0,0,.08), 0 4px 8px rgba(0,0,0,.04);
 }
 
 .card h3{
