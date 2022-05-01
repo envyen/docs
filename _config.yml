@@ -41,8 +41,6 @@ search:
 
 # Aux links for the upper right navigation
 aux_links:
-  "code":
-    - "//github.com/envyen"
   "about":
     - "//envyen.com/about"
 
