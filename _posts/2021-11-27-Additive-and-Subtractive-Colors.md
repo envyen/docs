@@ -1,5 +1,6 @@
 ---
 title: Additive and Subtractive Color model
+thumbnail: thumbs/2021-11-27-Additive-and-Subtractive-Colors.png
 comments: true
 custom-js-list:
 - https://cdn.jsdelivr.net/npm/three@0.122.0/build/three.min.js
