@@ -40,3 +40,6 @@ Different from RGB Light, this model has a 4th component as Black (K/key) color.
 <br/><br/>
 Both of these model can be considered complement to each other.
 </p>
+
+<hr/><small>> Thumbnail Photo by <a href="https://unsplash.com/@moonshadowpress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joyce McCown</a> on <a href="https://unsplash.com/s/photos/color?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> </small>
+
