@@ -12,7 +12,7 @@ nav_order: 3
 # About envyen
 
 <p style='text-align: justify;'>
-A notebook for the things and technologies I found interesting. Published in hope that these might help someone sometime. 
+A notebook for the things and technologies I found interesting. Shared in hope that these might help someone sometime. 
 
 <H2>I'm Naveen </H2>
 
@@ -24,4 +24,4 @@ With a decade of experience in developing embedded products. Continuing to work 
 Lives with successful temptations of breaking open gadgets and tools. I love making my own devices, software, tools and enhancing existing ones as I feel right. Being a hardcore fan of the Opensource community, spent some time sharing ideas and helping out others. Loves photography, art, nature, and space.
 </p>
 <hr/>
-I am open to new challenges and growth opportunities, connect with me on  <a href="https://www.linkedin.com/in/naveenkaruthedath/">Linked<i class='fa-brands fa-linkedin'></i></a>
+I am open to new challenges, connect with me on  <a href="https://www.linkedin.com/in/naveenkaruthedath/">Linked<i class='fa-brands fa-linkedin'></i></a>
