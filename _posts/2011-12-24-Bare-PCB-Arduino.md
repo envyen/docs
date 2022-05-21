@@ -1,5 +1,7 @@
 ---
 title: Arduino on proto pcb
+comments: true
+layout: post
 tags:
 - arduino
 - diy
