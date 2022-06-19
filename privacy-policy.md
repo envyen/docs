@@ -1,5 +1,5 @@
 ---
-title: Privacy Policy 
+title: privacy policy 
 layout: about
 nav_order: 3
 ---
@@ -42,9 +42,9 @@ Processing your Personal Information depends on how you interact with the Websit
 <p>We reserve the right to modify this Policy or its terms related to the Website and Services at any time at our discretion. When we do, we will revise the updated date at the bottom of this page. We may also provide notice to you in other ways at our discretion, such as through the contact information you have provided.</p>
 <p>An updated version of this Policy will be effective immediately upon the posting of the revised Policy unless otherwise specified. Your continued use of the Website and Services after the effective date of the revised Policy (or such other act specified at that time) will constitute your consent to those changes. However, we will not, without your consent, use your Personal Information in a manner materially different than what was stated at the time your Personal Information was collected.</p>
 <h2>Acceptance of this policy</h2>
-<p>You acknowledge that you have read this Policy and agree to all its terms and conditions. By accessing and using the Website and Services and submitting your information you agree to be bound by this Policy. If you do not agree to abide by the terms of this Policy, you are not authorized to access or use the Website and Services. This privacy policy was created with the <a target="_blank" href="https://www.websitepolicies.com/privacy-policy-generator" rel="noopener">privacy policy generator</a>.</p>
+<p>You acknowledge that you have read this Policy and agree to all its terms and conditions. By accessing and using the Website and Services and submitting your information you agree to be bound by this Policy. If you do not agree to abide by the terms of this Policy, you are not authorized to access or use the Website and Services.</p>
 <h2>Contacting us</h2>
 <p>If you have any questions, concerns, or complaints regarding this Policy, the information we hold about you, or if you wish to exercise your rights, we encourage you to contact us using the details below:</p>
-<p><a target="_blank" rel="nofollow" href="https://envyen.com/contact">https://envyen.com/contact</a></p>
+<p><a target="_blank" rel="nofollow" href="https://envyen.com/about">https://envyen.com/about</a></p>
 <p>We will attempt to resolve complaints and disputes and make every reasonable effort to honor your wish to exercise your rights as quickly as possible and in any event, within the timescales provided by applicable data protection laws.</p>
 <p>This document was last updated on June 19, 2022</p>
