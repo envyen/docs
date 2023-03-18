@@ -16,3 +16,7 @@ nav_order: 2
 ### image
 * [compress](/tools/image/compress-image/) - compress an image limited to a filesize or length
 * [qr-code](/tools/image/qr-code-generator/) - generate QR Code from text
+
+
+### misc
+* [ctc percentage](/tools/misc/ctc-hike-calculator/) - calculate CTC Hike Percentage
