@@ -19,4 +19,8 @@ nav_order: 2
 
 
 ### misc
-* [ctc percentage](/tools/misc/ctc-hike-calculator/) - calculate CTC Hike Percentage
+* [CTC percentage](/tools/misc/ctc-hike-calculator/) - calculate CTC Hike Percentage
+
+### health
+* [BMI calculator](/tools/misc/bmi-calculator/) - Calculate your BMI
+
