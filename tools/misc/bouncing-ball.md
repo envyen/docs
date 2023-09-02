@@ -19,9 +19,10 @@ custom-js-list:
         position: absolute;
     }
     #stage {
-        margin: 0;
-        overflow: hidden;
-        background-color: black;
+        position: relative;
+        background-color:#1d1d1d;
+        width: 100%;
+        height: 200px;
     }
 
 </style>
