@@ -8,6 +8,7 @@ custom-js-list:
     - "https://code.jquery.com/jquery-3.2.1.min.js"
 ---
 
+# bouncing ball
 <style>
 #ball {
 width: 100px;
@@ -22,13 +23,12 @@ overflow: hidden;
 background-color: black;
 }
 </style>
-<div id="stage">
-<div id="ball"></div>
-</div>
+
+<div id="stage"><div id="ball"></div></div>
 <button id="toggleButton" onclick="toggleAnimation()" class="btn btn-green float-right">Start</button>
 <button onclick="openFullscreen();" class="btn btn-green float-right">Full-screen</button>
-<script>
 
+<script>
 function openFullscreen() {
 var elem = document.getElementById("clockbg");
 if (elem.requestFullscreen) {
@@ -123,4 +123,5 @@ ball.style.transform = `translate(${x}px, ${y}px)`; // Move the ball
 requestAnimationFrame(animate); // Repeat the animation
 }
 animate(); // Start the animation
+
 </script>
