@@ -10,18 +10,20 @@ custom-js-list:
 
 # bouncing ball
 <style>
-#ball {
-width: 100px;
-height: 100px;
-background-color: white;
-border-radius: 50%;
-position: absolute;
-}
-#stage {
-margin: 0;
-overflow: hidden;
-background-color: black;
-}
+
+    #ball {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+    }
+    #stage {
+        margin: 0;
+        overflow: hidden;
+        background-color: black;
+    }
+
 </style>
 
 <div id="stage"><div id="ball"></div></div>
@@ -30,7 +32,7 @@ background-color: black;
 
 <script>
 function openFullscreen() {
-var elem = document.getElementById("clockbg");
+var elem = document.getElementById("stage");
 if (elem.requestFullscreen) {
 elem.requestFullscreen();
 } else if (elem.webkitRequestFullscreen) { /* Safari */
