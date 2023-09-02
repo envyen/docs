@@ -28,7 +28,7 @@ custom-js-list:
 </style>
 
 <div id="stage"><div id="ball"></div></div>
-<button id="toggleButton" onclick="toggleAnimation()" class="btn btn-green float-right">Start</button>
+<button id="toggleButton" onclick="toggleAnimation();" class="btn btn-green float-right">Start</button>
 <button onclick="openFullscreen();" class="btn btn-green float-right">Full-screen</button>
 
 <script>
