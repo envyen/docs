@@ -9,8 +9,6 @@ tags:
 
 ---
 
-# Unraveling the Wonders of Stereo Camera Pairs, Disparity, and Calibration
-
 Ever wondered how your computer can see the world in 3D, just like you do with your two eyes? The answer lies in the fascinating world of stereo cameras, disparity, and the crucial process of stereo camera calibration. In this post, we will take a deep dive into what stereo camera pairs are, what disparity means, and how calibration helps us unlock the magic of 3D vision.
 
 ## Stereo Camera Pairs
