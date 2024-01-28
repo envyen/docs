@@ -91,30 +91,37 @@ An analog clock typically consists of three hands: the hour hand, the minute han
 
 1. **Hour Hand:**
    - The hour hand completes a full rotation every 12 hours, covering 360 degrees. Therefore, the rate at which the hour hand moves is given by:
+   
      $$ \text{Hour Angle} = 0.5 \times (60 \times \text{hours} + \text{minutes}) $$
 
 2. **Minute Hand:**
    - The minute hand completes a full rotation every hour, covering 360 degrees. Its movement is calculated as:
+   
      $$ \text{Minute Angle} = 6 \times \text{minutes} $$
 
 3. **Second Hand:**
    - The second hand completes a full rotation every minute, covering 360 degrees. Its movement is calculated as:
+
      $$ \text{Second Angle} = 6 \times \text{seconds} $$
 
 ### Calculating the Angles
 
 1. **Angle Between Hour and Minute Hands:**
+
    $$ \text{Angle}_{\text{Hour-Minute}} = \lvert \text{Hour Angle} - \text{Minute Angle} \rvert $$
 
    To ensure that the smaller angle is considered, we use the formula:
+
    $$ \text{Angle}_{\text{Hour-Minute}} = \min(360 - \text{Angle}_{\text{Hour-Minute}}, \text{Angle}_{\text{Hour-Minute}}) $$
 
-2. **Angle Between Hour and Second Hands:**
+3. **Angle Between Hour and Second Hands:**
+
    $$ \text{Angle}_{\text{Hour-Second}} = \lvert \text{Hour Angle} - \text{Second Angle} \rvert $$
 
    $$ \text{Angle}_{\text{Hour-Second}} = \min(360 - \text{Angle}_{\text{Hour-Second}}, \text{Angle}_{\text{Hour-Second}}) $$
 
-3. **Angle Between Minute and Second Hands:**
+5. **Angle Between Minute and Second Hands:**
+
    $$ \text{Angle}_{\text{Minute-Second}} = \lvert \text{Minute Angle} - \text{Second Angle} \rvert $$
 
-   \[ \text{Angle}_{\text{Minute-Second}} = \min(360 - \text{Angle}_{\text{Minute-Second}}, \text{Angle}_{\text{Minute-Second}}) $$
+   $$ \text{Angle}_{\text{Minute-Second}} = \min(360 - \text{Angle}_{\text{Minute-Second}}, \text{Angle}_{\text{Minute-Second}}) $$
