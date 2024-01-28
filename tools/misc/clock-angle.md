@@ -83,7 +83,7 @@ window.onload = calculateAngles;
 </script>
 
 
-# Understanding the Calculation of Angles Between Clock Needles
+## Understanding the Calculation  
 
 ### The Anatomy of an Analog Clock
 
