@@ -8,27 +8,23 @@ title: "Clock Angle calculator"
 # Clock Angle calculator
 
 <style>
-#angle-result {
-font-size: 20px;
-margin-top: 20px;
-}
-#clock {
-margin-top: 20px;
-}
+    #angle-result {
+    font-size: 20px;
+    margin-top: 20px;
+    }
+
+    #clock {
+    margin-top: 20px;
+    }
 </style>
 
 <label for="timeInput">Select a time:</label>
 <input type="time" id="timeInput" value="12:00" step="1">
-
 <button onclick="calculateAngles()">Calculate Angles</button>
-
 <div id="angle-result"></div>
-
 <div id="clock"></div>
 
-
 <script>
-
 
 function calculateAngles() {
 const timeInput = document.getElementById('timeInput');
@@ -39,7 +35,7 @@ const selectedTime = timeInput.value;
 const timeArray = selectedTime.split(':');
 const hours = parseInt(timeArray[0]);
 const minutes = parseInt(timeArray[1]);
-const seconds = parseInt(timeArray[2]) || 0; // Default seconds to 0 if not provided
+const seconds = parseInt(timeArray[2]) || 0; /* Default seconds to 0 if not provided */
 
 const hourAngle = 0.5 * (60 * hours + minutes);
 const minuteAngle = 6 * minutes;
