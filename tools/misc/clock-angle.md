@@ -91,7 +91,7 @@ An analog clock typically consists of three hands: the hour hand, the minute han
 
 1. **Hour Hand:**
    - The hour hand completes a full rotation every 12 hours, covering 360 degrees. Therefore, the rate at which the hour hand moves is given by:
-     \[ \text{Hour Angle} = 0.5 \times (60 \times \text{hours} + \text{minutes}) \]
+     $$ \text{Hour Angle} = 0.5 \times (60 \times \text{hours} + \text{minutes}) $$
 
 2. **Minute Hand:**
    - The minute hand completes a full rotation every hour, covering 360 degrees. Its movement is calculated as:
