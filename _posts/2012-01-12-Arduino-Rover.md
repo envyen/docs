@@ -6,6 +6,7 @@ tags:
 - archive
 comments: true
 thumbnail: thumbs/rover.png
+layout: post
 ---
 
 A IR remote controlled rover, on top of DIY Arduino  

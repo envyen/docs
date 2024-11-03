@@ -2,6 +2,7 @@
 title: OpenCV - Crop Image
 tags:
 - opencv
+layout: post
 ---
 
 How to Crop an OpenCV Mat on specific co-ordinates

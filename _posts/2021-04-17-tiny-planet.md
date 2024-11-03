@@ -6,7 +6,7 @@ tags:
 - tinyplanet
 - equirectangular
 - geometric-transform
-
+layout: post
 ---
 
 Named Tiny planet, Little planet etc are beautiful effects that converts the projection of an equirecangular image.

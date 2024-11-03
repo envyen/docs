@@ -3,6 +3,7 @@ title: IPC in Linux - an Intro
 tags:
 - IPC
 - linux
+layout: post
 ---
 
 In this article author began to see how multiple processes may be running on a machine and maybe be controlled (spawned by fork()) by one of our programs. In numerous applications there is clearly a  need for these processes to communicate with each exchanging data or control information. There are a few methods which can accomplish this task.

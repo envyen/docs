@@ -5,6 +5,7 @@ tags:
 - visual-basic
 - windows
 - archive
+layout: post
 ---
 
 Wake up timer wakes up the system at specified time from standby or hibernation. After resuming, the desired application or file is executed. An alarm function is also included to notify system wakeup.
