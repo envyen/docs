@@ -1,0 +1,56 @@
+<style>
+.day { display:none; }
+.day + label{
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgZmlsbD0iIzQ2NDY0NiIgcj0iNSIvPjxwYXRoIGQ9Ik0yMSwxM0gyMGExLDEsMCwwLDEsMC0yaDFhMSwxLDAsMCwxLDAsMloiIGZpbGw9IiM0NjQ2NDYiLz48cGF0aCBkPSJNNCwxM0gzYTEsMSwwLDAsMSwwLTJINGExLDEsMCwwLDEsMCwyWiIgZmlsbD0iIzQ2NDY0NiIvPjxwYXRoIGQ9Ik0xNy42Niw3LjM0QTEsMSwwLDAsMSwxNyw3LjA1YTEsMSwwLDAsMSwwLTEuNDFsLjcxLS43MWExLDEsMCwxLDEsMS40MSwxLjQxbC0uNzEuNzFBMSwxLDAsMCwxLDE3LjY2LDcuMzRaIiBmaWxsPSIjNDY0NjQ2Ii8+PHBhdGggZD0iTTUuNjQsMTkuMzZhMSwxLDAsMCwxLS43MS0uMjksMSwxLDAsMCwxLDAtMS40MUw1LjY0LDE3YTEsMSwwLDAsMSwxLjQxLDEuNDFsLS43MS43MUExLDEsMCwwLDEsNS42NCwxOS4zNloiIGZpbGw9IiM0NjQ2NDYiLz48cGF0aCBkPSJNMTIsNWExLDEsMCwwLDEtMS0xVjNhMSwxLDAsMCwxLDIsMFY0QTEsMSwwLDAsMSwxMiw1WiIgZmlsbD0iIzQ2NDY0NiIvPjxwYXRoIGQ9Ik0xMiwyMmExLDEsMCwwLDEtMS0xVjIwYTEsMSwwLDAsMSwyLDB2MUExLDEsMCwwLDEsMTIsMjJaIiBmaWxsPSIjNDY0NjQ2Ii8+PHBhdGggZD0iTTYuMzQsNy4zNGExLDEsMCwwLDEtLjctLjI5bC0uNzEtLjcxQTEsMSwwLDAsMSw2LjM0LDQuOTNsLjcxLjcxYTEsMSwwLDAsMSwwLDEuNDFBMSwxLDAsMCwxLDYuMzQsNy4zNFoiIGZpbGw9IiM0NjQ2NDYiLz48cGF0aCBkPSJNMTguMzYsMTkuMzZhMSwxLDAsMCwxLS43LS4yOUwxNywxOC4zNkExLDEsMCwwLDEsMTguMzYsMTdsLjcxLjcxYTEsMSwwLDAsMSwwLDEuNDFBMSwxLDAsMCwxLDE4LjM2LDE5LjM2WiIgZmlsbD0iIzQ2NDY0NiIvPjwvc3ZnPg==);
+    height: 16px;
+    width: 16px;
+    display:inline-block;
+    /* padding: 0 0 0 0px; */
+    /* margin-top: 5px; */
+    /* float: right; */
+    line-height:16px;
+    vertical-align:middle;
+}
+.day:checked + label{
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PHBhdGggZD0iTTIwLjIxLDE1LjMyQTguNTYsOC41NiwwLDEsMSwxMS4yOSwzLjVhLjUuNSwwLDAsMSwuNTEuMjguNDkuNDksMCwwLDEtLjA5LjU3QTYuNDYsNi40NiwwLDAsMCw5LjgsOWE2LjU3LDYuNTcsMCwwLDAsOS43MSw1LjcyLjUyLjUyLDAsMCwxLC41OC4wN0EuNTIuNTIsMCwwLDEsMjAuMjEsMTUuMzJaIiBmaWxsPSIjNDY0NjQ2Ii8+PC9zdmc+);  
+    height: 16px;
+    width: 16px;
+    display:inline-block;
+    /* padding: 0 0 0 0px; */
+    /* margin-top: 5px; */
+    line-height:16px;
+    vertical-align:middle;
+    /* float: right; */
+}
+</style>
+
+<input class="day" type='checkbox' name='dark' value='valuable' id="dark" title="Day/Night"/><label for="dark"></label> 
+
+<script>
+
+    const darktheme = document.getElementById('dark');
+    if(localStorage.getItem('theme') == 'dark'){
+        darktheme.checked = true;
+        jtd.setTheme('dark'); 
+    } else if(localStorage.getItem('theme') == 'light'){
+        darktheme.checked = false;
+        jtd.setTheme('light'); 
+    }else{
+        var darkos = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if(darkos){
+            darktheme.checked = true;
+            jtd.setTheme('dark'); 
+        }
+    }
+
+    darktheme.addEventListener('change', (event) => {
+        if (event.currentTarget.checked) {
+            jtd.setTheme('dark'); 
+            localStorage.setItem('theme', 'dark');
+        } else {
+            jtd.setTheme('light'); 
+            localStorage.setItem('theme', 'light');
+        }
+    });
+</script>
+
