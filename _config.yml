@@ -1,6 +1,6 @@
 title: "envyen"
 baseurl: "/"
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: envyen.com
 theme: just-the-docs
 permalink: pretty
 heading_anchors: true
@@ -10,3 +10,17 @@ url: https://envyen.com
 aux_links:
   "about":
     - "//envyen.com/about"
+
+collections:
+  posts:
+    permalink: "/:collection/:path/"
+    output: true
+  oss:
+    permalink: "/:collection/:path/"
+    output: true
+  tutorials:
+    permalink: "/:collection/:path/"
+    output: true
+  tags:
+    output: true
+    permalink: "tags/:path/"
