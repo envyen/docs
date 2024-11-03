@@ -1,0 +1,7 @@
+_id: 1c35b560-161c-11ec-b498-598639cb5c26
+_parent: 'https://envyen.com/posts/2021-06-27-C-CPP-Jupyter-Notebook-Windows/'
+replying_to_uid: ''
+message: "Thanks a lot for this very nice step-by-step tutorial!\r\n\r\nI got a little into trouble because a first tried to generate the \"~/note\" file from within Windows (I thought this is faster... ). However, Windows and Linux are using different endOfLine-encodings. Notepad++ was fortunately able to convert them."
+name: Johannes
+email: e386b2639794a40af1388b4cbd00652a
+date: 1631707053
