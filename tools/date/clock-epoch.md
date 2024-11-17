@@ -32,6 +32,11 @@ custom-js-list:
 <button id="timer-toggle" onclick="toggleTimer()" class="btn btn-green">Freeze</button>
 <button onclick="openFullscreen();" class="btn btn-green">Full-screen</button>
 
+
+<p style='text-align: justify;'>
+Epoch time, also known as Unix time or POSIX time, represents the number of seconds (or milliseconds) that have elapsed since January 1, 1970, 00:00:00 UTC (Coordinated Universal Time). This system is widely used in computing to track time in a simple, continuous, and platform-independent manner. Epoch time is particularly useful for time calculations, event timestamps, and synchronizing systems across different platforms.
+</p>
+
 <script>
 var elem = document.getElementById("clockbg");
 function openFullscreen() {
