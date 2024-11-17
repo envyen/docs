@@ -16,12 +16,15 @@ A notebook for the things and technologies I found interesting. Shared in hope t
 
 <H2>I'm Naveen </H2>
 
-An Embedded Software Engineer by profession, focussed on Camera Developments & Computer Vision
-
+I’m an Embedded Software Engineer with a passion for Camera Development and Computer Vision. 
 <p style='text-align: justify;'>
-With a decade of experience in developing embedded products. Continuing to work on designing and developing ideas to products. Acquired extensive experience in complete Product development life cycle from requirement analysis, POCs, Software Architecture design, Low-level development, Debugging, and Software release process.
+With over a decade of experience in embedded product development, I’ve honed my skills across the entire product lifecycle—from requirements analysis and proof-of-concepts to software architecture design, low-level development, debugging, and release management.
 <br/><br/>
-Lives with successful temptations of breaking open gadgets and tools. I love making my own devices, software, tools and enhancing existing ones as I feel right. Being a hardcore fan of the Opensource community, spent some time sharing ideas and helping out others. Loves photography, art, nature, and space.
+What truly excites me is transforming ideas into tangible, innovative products. Whether it’s breaking open gadgets to understand their inner workings or crafting my own devices, software, and tools, I thrive on creating and improving technology.
+<br/><br/>
+As a dedicated advocate of the open-source community, I enjoy sharing knowledge, collaborating on projects, and helping others bring their visions to life. Beyond work, I’m drawn to photography, art, nature, and the mysteries of space—finding inspiration in the beauty and complexity of the world around us.
+<br/><br/>
+Let’s connect and create something remarkable together!
 </p>
 <hr/>
 I am open to new challenges, connect with me on  <a href="https://www.linkedin.com/in/naveenkaruthedath/">Linked<i class='fa-brands fa-linkedin'></i></a>
