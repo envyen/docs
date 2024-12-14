@@ -6,7 +6,7 @@ tags:
 - christmas
 - paper-craft
 comments: false
-thumbnail: thumbs/diy-star_thumbnail_256x256.jpg
+thumbnail: thumbs/star-thumb.png
 layout: post
 ---
 
