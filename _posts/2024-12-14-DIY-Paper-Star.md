@@ -7,6 +7,7 @@ tags:
 - paper-craft
 comments: false
 thumbnail: thumbs/diy-star_thumbnail_256x256.jpg
+layout: post
 ---
 
 <style>
@@ -24,12 +25,13 @@ thumbnail: thumbs/diy-star_thumbnail_256x256.jpg
   }
 </style>
 
-<div class="gallery">
-<img src="../../upload/diy-star/diy-star-min.jpg">
-</div>
 
 Crafting your own paper star is a fun and rewarding project that’s perfect for decorating your home, celebrating the holidays, or simply adding a handmade touch to any event. 
 With just a few materials and some simple folding techniques, you can create a stunning star that radiates charm and creativity.
+
+<div class="gallery">
+<img src="../../upload/diy-star/diy-star-min.jpg">
+</div>
 
 Materials you’ll need:
 
