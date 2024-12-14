@@ -1,5 +1,5 @@
 ---
-title: "How to Create a DIY Paper Star: A Step-by-Step Guide with printable pdf"
+title: "How to Create a DIY Paper Star"
 tags:
 - diy
 - printable-pdf
@@ -9,6 +9,12 @@ comments: false
 thumbnail: thumbs/diy-star_thumbnail_256x256.jpg
 layout: post
 ---
+
+<p style='text-align: justify;'>
+Crafting your own paper star is a fun and rewarding project that’s perfect for decorating your home, celebrating the holidays, or simply adding a handmade touch to any event. 
+<br/>
+With just a few materials and some simple folding techniques, you can create a stunning star that radiates charm and creativity.
+</p>
 
 <style>
 .gallery img  {
@@ -24,9 +30,6 @@ layout: post
     filter: saturate(1.0);
   }
 </style>
-
-
-Crafting your own paper star is a fun and rewarding project that’s perfect for decorating your home, celebrating the holidays, or simply adding a handmade touch to any event. With just a few materials and some simple folding techniques, you can create a stunning star that radiates charm and creativity.
 
 <div class="gallery">
 <img src="../../upload/diy-star/diy-star-min.jpg">
