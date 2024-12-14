@@ -55,7 +55,7 @@ Steps:
     - The design should include folding lines to shape the cone.
 <img src="../../upload/diy-star/star-one.png">
 
-For convenience, you can download and print a ready-made template on two A4 sheets for accurate and consistent outlines.
+For convenience, you can download and print a ready-made template on two A4 sheets for accurate and consistent outlines <a href="../../upload/diy-star/com.envyen.star.pdf">[Download pdf]</a>
 
 2. Create Five Star Points
 
