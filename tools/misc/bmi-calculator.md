@@ -35,41 +35,7 @@ custom-css-list:
 <p id="result"></p>
 
 <script>
-function calculateBMI() {
-  const weight = parseFloat(document.getElementById("weight").value);
-  const weightUnit = document.getElementById("weight_unit").value;
-  const height = parseFloat(document.getElementById("height").value);
-  const heightUnit = document.getElementById("height_unit").value;
-
-  // Convert weight to kg if necessary
-  if (weightUnit === "lbs") {
-    weight = weight / 2.205;
-  }
-
-  // Convert height to m if necessary
-  if (heightUnit === "in") {
-    height = height / 39.37;
-  }
-
-  // Calculate BMI
-  const bmi = weight / (height * height);
-
-  // Display BMI result
-  const result = document.querySelector('#result');
-
-  result.textContent = "Your BMI is " + bmi.toFixed(1);
-  
-    if (bmi < 18.5) {
-      result.textContent += ". You are underweight.";
-    } else if (bmi < 25) {
-      result.textContent += ". You are at a healthy weight.";
-    } else if (bmi < 30) {
-      result.textContent += ". You are overweight.";
-    } else {
-      result.textContent += ". You are obese.";
-    }
-}
-  
+function calculateBMI(){let e=parseFloat(document.getElementById("weight").value),t=document.getElementById("weight_unit").value,n=parseFloat(document.getElementById("height").value),l=document.getElementById("height_unit").value;"lbs"===t&&(e/=2.205),"in"===l&&(n/=39.37);let u=e/(n*n),o=document.querySelector("#result");o.textContent="Your BMI is "+u.toFixed(1),u<18.5?o.textContent+=". You are underweight.":u<25?o.textContent+=". You are at a healthy weight.":u<30?o.textContent+=". You are overweight.":o.textContent+=". You are obese."}
 </script>
 
 A BMI calculator is a tool that calculates a person's body mass index (BMI) based on their height and weight. BMI is a measurement of body fat based on an individual's height and weight, and it is commonly used as a screening tool to identify potential health problems related to weight.
