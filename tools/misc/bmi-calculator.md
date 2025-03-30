@@ -13,6 +13,10 @@ custom-css-list:
 
 # BMI calculator
 
+<style>
+.frmcontainer { max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px;}
+</style>
+<div class="frmcontainer">
 <form>
   <label for="weight">Weight:</label>
   <input type="number" id="weight" name="weight">
@@ -30,9 +34,9 @@ custom-css-list:
   <br/><br/>
   <button type="button" onclick="calculateBMI()" class="btn btn-green">Calculate BMI</button>
 </form>
-<br/>
+<br/><br/>
 <div class="label label-green" id="result"> </div>
-
+</div>
 <script>
 function calculateBMI(){let e=parseFloat(document.getElementById("weight").value),t=document.getElementById("weight_unit").value,n=parseFloat(document.getElementById("height").value),l=document.getElementById("height_unit").value;"lbs"===t&&(e/=2.205),"in"===l&&(n/=39.37);let u=e/(n*n),o=document.querySelector("#result");o.textContent="Your BMI is "+u.toFixed(1),u<18.5?o.textContent+=". You are underweight.":u<25?o.textContent+=". You are at a healthy weight.":u<30?o.textContent+=". You are overweight.":o.textContent+=". You are obese."}
 </script>
@@ -50,10 +54,11 @@ Body Mass Index (BMI) is a simple numerical value derived from an individual’s
 
 BMI is calculated using the following formula:
 
-$$\[ BMI = \frac{weight (kg)}{height (m)^2} \]$$
+$$BMI = \frac{weight (kg)}{height (m)^2}$$
 
 For example, if a person weighs 70 kg and is 1.75 meters tall, their BMI would be:
-$$\[ BMI = \frac{70}{(1.75 \times 1.75)} = 22.86 \]$$
+
+$$BMI = \frac{70}{(1.75 \times 1.75)} = 22.86 $$
 
 **BMI Categories and Their Meaning**
 
