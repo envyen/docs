@@ -20,17 +20,17 @@ custom-css-list:
     <option value="kg">kg</option>
     <option value="lbs">lbs</option>
   </select>
-  <br>
+  <br/><br/>
   <label for="height">Height:</label>
   <input type="number" id="height" name="height">
   <select id="height_unit" name="height_unit">
     <option value="m">m</option>
     <option value="in">in</option>
   </select>
-  <br>
+  <br/><br/>
   <button type="button" onclick="calculateBMI()" class="btn btn-green">Calculate BMI</button>
 </form>
-
+<br/>
 <div class="label label-green" id="result"> </div>
 
 <script>
