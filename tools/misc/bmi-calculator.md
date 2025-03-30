@@ -28,11 +28,10 @@ custom-css-list:
     <option value="in">in</option>
   </select>
   <br>
-  <button type="button" onclick="calculateBMI()">Calculate BMI</button>
+  <button type="button" onclick="calculateBMI()" class="btn btn-green">Calculate BMI</button>
 </form>
 
-
-<p id="result"></p>
+<div class="label label-green" id="result"> </div>
 
 <script>
 function calculateBMI(){let e=parseFloat(document.getElementById("weight").value),t=document.getElementById("weight_unit").value,n=parseFloat(document.getElementById("height").value),l=document.getElementById("height_unit").value;"lbs"===t&&(e/=2.205),"in"===l&&(n/=39.37);let u=e/(n*n),o=document.querySelector("#result");o.textContent="Your BMI is "+u.toFixed(1),u<18.5?o.textContent+=". You are underweight.":u<25?o.textContent+=". You are at a healthy weight.":u<30?o.textContent+=". You are overweight.":o.textContent+=". You are obese."}
