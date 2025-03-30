@@ -50,10 +50,10 @@ Body Mass Index (BMI) is a simple numerical value derived from an individual’s
 
 BMI is calculated using the following formula:
 
-\[ BMI = \frac{weight (kg)}{height (m)^2} \]
+$$\[ BMI = \frac{weight (kg)}{height (m)^2} \]$$
 
 For example, if a person weighs 70 kg and is 1.75 meters tall, their BMI would be:
-\[ BMI = \frac{70}{(1.75 \times 1.75)} = 22.86 \]
+$$\[ BMI = \frac{70}{(1.75 \times 1.75)} = 22.86 \]$$
 
 **BMI Categories and Their Meaning**
 
