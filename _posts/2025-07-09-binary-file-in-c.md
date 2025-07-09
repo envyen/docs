@@ -22,7 +22,7 @@ Some practical reasons to embed data into your code:
 
 ---
 
-## Technique 1: C Header with Binary Array
+## 1: C Header with Binary Array
 
 Use `xxd -i` or a Python script to convert the binary into a header.
 
@@ -31,7 +31,7 @@ xxd -i logo.png > logo_png.h
 ```
 
 logo_png.h
-```C
+```c
 unsigned char logo_png[] = {
   0x89, 0x50, 0x4E, 0x47, ...
 };
@@ -49,7 +49,7 @@ int main() {
 }
 ```
 
-## Technique 2: .incbin with Linker Script
+## 2: .incbin with Linker Script
 
 linker_script.ld
 
@@ -89,7 +89,7 @@ int main() {
 }
 ```
 
-## Technique 3: objcopy Binary to Object
+## 3: objcopy Binary to Object
 
 ```
 ld -r -b binary -o cert.o cert.pem
@@ -107,7 +107,7 @@ void print_cert() {
 }
 ```
 
-## Technique 4: Embedding as Base64 or Text
+## 4: Embedding as Base64 or Text
 
 Useful for certificates, templates, or encoded assets:
 ```
@@ -124,7 +124,7 @@ char decode_base64_char(char c) {
 }
 ```
 
-## Technique 5: Windows .rc Resource File
+## 5: Windows .rc Resource File
 
 resources.rc
 ```
