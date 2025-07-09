@@ -4,6 +4,7 @@ layout: post
 comments: true
 tags:
 - c
+thumbnail: thumbs/bin-c.png
 ---
 
 In systems programming and embedded development, embedding binary data directly into your program can simplify deployment, eliminate filesystem dependencies, and improve security. This blog post explores multiple techniques for embedding binary and text data into your codebase — from simple C arrays to linker scripts and cross-platform object files.
