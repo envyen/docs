@@ -1,7 +1,8 @@
 ---
 title: Qualcomm EDL Communication from browser WebUSB
 layout: post
-comments: true
+comments: false
+thumbnail: thumbs/edl-webusb.png
 tags:
 - Qualcomm
 - EDL
