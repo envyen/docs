@@ -6,6 +6,9 @@ tags:
 - c
 - cpp
 - memory
+
+custom-css-list:
+     - "https://cdn.rawgit.com/lonekorean/gist-syntax-themes/d49b91b3/stylesheets/one-dark.css"
 ---
 
 Easily retrieve the current memory usage of your C/C++ program in **kilobytes**, **megabytes**, or **JSON**—in a thread-safe and portable way.
