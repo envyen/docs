@@ -35,7 +35,7 @@ Easily retrieve the current memory usage of your C/C++ program in **kilobytes**,
 
 ## Header Code: `memory_usage.h`
 
-Refer to the previous section or save the implementation in a file called `memory_usage.h`.
+<script src="https://gist.github.com/envyen/7139bc4dfab68f866f800e8e6308041a.js"></script>
 
 ## How to Use
 
