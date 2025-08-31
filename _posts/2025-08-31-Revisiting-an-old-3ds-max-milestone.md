@@ -6,7 +6,7 @@ tags:
 - 3d-studio-max
 - animation
 - character-rigging
-
+thumbnail: thumbs/rigged.png
 ---
 
 About two decades ago, while learning 3d Studio Max, I made a simple animation of a human character. Back then, this felt like a big deal. The software was complex but exciting to see the design rendering to reality.
