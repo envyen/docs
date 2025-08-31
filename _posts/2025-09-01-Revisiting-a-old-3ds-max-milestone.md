@@ -3,7 +3,7 @@ title: Revisiting a 2-Decade-Old 3ds Max Milestone
 layout: post
 comments: false
 tags:
-- 3ds-max
+- 3d-studio-max
 - animation
 - character-rigging
 
