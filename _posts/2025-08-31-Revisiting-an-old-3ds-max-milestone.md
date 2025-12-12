@@ -1,5 +1,5 @@
 ---
-title: Revisiting a 2-Decade-Old 3ds Max Milestone
+title: How I built a human in 3D - 2 decades ago !
 layout: post
 comments: false
 tags:
@@ -9,23 +9,22 @@ tags:
 thumbnail: thumbs/rigged.png
 ---
 
-About two decades ago, while learning 3d Studio Max, I made a simple animation of a human character. Back then, this felt like a big deal. The software was complex but exciting to see the design rendering to reality.
+About twenty years ago, when my computer still sounded like a jet engine and 3D Studio Max felt like software designed by aliens, I made a simple human animation. At the time, it felt like I had unlocked secret CGI powers. With Intel Pentium CPU and a few hundred megabytes of RAM.
 
-#### Making the Human Model
+### Building My “Human”
 
-Started by building a basic human shape.. pulled and moved points and lines on the screen. It wasn’t easy, but it was fun to watch the human body take shape. Sometimes, the model looked strange.. fixed it again and again until it looked right.
-At times he looked like myself
+I started by shaping a basic human figure—at least that was the intention. What actually appeared on my screen looked like a potato that had hopes and dreams. I kept pulling and pushing vertices, trying to convince this digital blob that it was supposed to be a person. Sometimes it looked weird. Sometimes really weird. At one point, I swear it started looking like me, which was slightly insulting.
 
-#### Adding the Skeleton and Joints
+### Installing the Skeleton
 
-Next, I gave my model a skeleton so it could move. This step is called “rigging.” i.e., put bones inside the body, like a real skeleton, so the model would bend at the knees, elbows, and other joints. Adjusting these bones took time. Sometimes the body twisted or crumpled in odd ways.
+Next came rigging—giving my potato-man a skeleton. This is where things went wild. One wrong bone adjustment and the entire body would twist like it was auditioning for a horror movie. Knees bent in directions that knees should not bend. Elbows teleported. The spine occasionally decided to try yoga. But eventually, I convinced the skeleton to behave like a normal human instead of a cursed action figure.
 
-#### Using Motion Capture (Mocap)
+### Playing with Mocap
 
-To make my human walk and move, I used “mocap” data. This is motion taken from a real person and added to the 3D character. imported the mocap file into 3ds Max. The character started moving, walking, running, or waving. It was amazing to see.
+To make the character actually move, I imported some motion capture data. This was the first time my digital creature started walking, running, waving—doing human things. It was oddly emotional watching him move for the first time… like watching your kid take his first steps, except your kid is made of polygons and absolutely does not listen to you as always.
 
-#### Rendering
+### Rendering: The Waiting Game
 
-The last step was to render the animation. Rendering means turning the animation into a video that can be played back. The computer worked hard, and it took a long time to make each frame. When it was finished, I had a short video showing my model in action.
+Finally came rendering part, the scanline rendering line by line my creation was a proud moment. Eventually, I had a short video of my character moving around, defying all the physics laws I had unintentionally broken.
 
 {% include youtube.html id="vfSuy92JmLI" %}
