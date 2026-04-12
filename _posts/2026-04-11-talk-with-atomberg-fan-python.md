@@ -3,7 +3,9 @@ title: Talking with Atomberg Fan from Python
 layout: post
 comments: true
 tags:
-- python, atomberg
+- python
+- atomberg
+- iot
 thumbnail: 
 ---
 
